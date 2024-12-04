@@ -44,9 +44,6 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 Route::middleware(['auth:sanctum', 'role:admin'])->group(function () {
     Route::post('projects', [ProjectController::class, 'store'])->name('projects.store');
 });
-/*Route::middleware(['auth:sanctum', 'role:student'])->group(function () {
-    Route::post('projects', [ProjectController::class, 'store'])->name('projects.store');
-});*/
 
 
 // Rutas protegidas para el dashboard

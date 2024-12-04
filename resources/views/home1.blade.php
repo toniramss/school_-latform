@@ -56,9 +56,8 @@
                     </div>
 
                     <!-- Botón de acción -->
-                    <div class="mt-10">
-                        <a href="{{ url('/projects') }}"
-                            class="bg-red-500 text-black px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-600 focus:text-white active:text-white">
+                    <div class="mt-10 bg-red-500 text-black px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-600 focus:text-white active:text-white"">
+                        <a href="{{ url('/projects') }}">
                             Explorar Proyectos
                         </a>
 
